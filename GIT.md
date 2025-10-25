@@ -14,7 +14,7 @@ Any repository **only has one branch "checked out" at a time.** If you push upda
 
 For example: Let's say this ticket is on the [issue tracker:](https://docs.github.com/en/issues/tracking-your-work-with-issues)
 `Ticket #12 "BUG: bee wings aren't flapping."` 
-1. You create and **checkout** a new "issue-12" branch (`git checkout -b issue-main`)
+1. You create and **checkout** a new "issue-12" branch (`git checkout -b issue-12`)
 2. You implement a solution and fix the bee wings. You **add** your changes to the ["staging area."](https://git-scm.com/about/staging-area) (`git add -u`)
 3. You **commit** your work to finalize the changes. (`git commit`)
 4. You **push** your work to your remote repository. (`git push origin issue-12`)
