@@ -14,10 +14,11 @@ Any repository **only has one branch "checked out" at a time.** If you push upda
 
 For example: Let's say this ticket is on the [issue tracker:](https://docs.github.com/en/issues/tracking-your-work-with-issues)
 `Ticket #12 "BUG: bee wings aren't flapping."` 
-1. You create and checkout a new "issue-12" branch (`git checkout -b issue-main`)
-2. You implement a solution and fix the bee wings. You **commit** your work. (`git commit`)
-3. You **push** your work to your remote repository. (`git push origin issue-12`)
-4. You navigate to the "Pull requests" tab **of your repository** and create a new pull request to the upstream repository. Now, you wait for approval. Pay attention, you may be asked questions.
+1. You create and **checkout** a new "issue-12" branch (`git checkout -b issue-main`)
+2. You implement a solution and fix the bee wings. You **add** your changes to the ["staging area."](https://git-scm.com/about/staging-area) (`git add -u`)
+3. You **commit** your work to finalize the changes. (`git commit`)
+4. You **push** your work to your remote repository. (`git push origin issue-12`)
+5. You navigate to the "Pull requests" tab **of your repository** and create a new pull request to the upstream repository. Now, you wait for approval. Pay attention, you may be asked questions.
 
 # Forking the repository
 
