@@ -1,5 +1,9 @@
 ﻿namespace fs
 
-module Say =
-    let hello name =
-        printfn "Hello %s" name
+open Godot
+
+module HelloFS =
+    let currentModuleName = "HelloFS"
+    let ready = fun() ->
+        GD.Print("Hello from F#")
+
