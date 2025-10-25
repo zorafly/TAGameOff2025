@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://c0ipe20ehmkfu"]
+
+[ext_resource type="Script" path="res://Node2d.cs" id="1_fqwjp"]
+
+[sub_resource type="Environment" id="Environment_xhc3y"]
+
+[node name="Root" type="Node2D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_xhc3y")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Node2D" type="Node2D" parent="CanvasLayer"]
+script = ExtResource("1_fqwjp")
