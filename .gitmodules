@@ -1,3 +1,6 @@
 [submodule "godot-fsharp-tools"]
 	path = godot-fsharp-tools
 	url = https://github.com/willnationsdev/godot-fsharp-tools.git
+[submodule "godot-cpp"]
+	path = godot-cpp
+	url = https://github.com/godotengine/godot-cpp.git
